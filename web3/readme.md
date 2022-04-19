@@ -1,3 +1,3 @@
 ## practicing iframe tag
 
-![image](readme.png "hw2")*HW2*]
+![image](readme.png "hw2")
