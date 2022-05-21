@@ -1,0 +1,55 @@
+.inf-l {
+    position: relative;
+      width: 200px;
+      height: 200px;
+      left: 134px;
+      top:130px ;
+      border: 10px solid red;
+      border-bottom-left-radius: 140px;
+      border-top-left-radius: 140px;
+      border-bottom-right-radius: 140px;
+      border-width: 5px;
+      transform: rotate(45deg);
+    }
+    .inf-r {
+        position: relative;
+        top: -80px;
+        left: 424px;
+        width: 200px;
+        height: 200px;
+        border: 10px solid red;
+        border-bottom-left-radius: 140px;
+        border-top-left-radius: 140px;
+        border-bottom-right-radius: 140px;
+        border-width: 5px;
+        transform: rotate(-135deg);
+    }
+    .btm2 {
+        position: relative;
+        margin-bottom: -710px;
+        left: 283px;
+        top: -10px;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        transform: rotate(-135deg);
+    }
+    .left2 {
+        position: relative;
+        top: 430px;
+        left: 213px;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        background-color: red;
+    }
+    .right2 {
+        position: relative;
+        top: 228px;
+        left: 355px;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        background-color: red;
+    }
+   
