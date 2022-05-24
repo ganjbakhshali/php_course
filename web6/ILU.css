@@ -1,54 +1,59 @@
 .inf-l {
-    position: relative;
+    position: absolute;
       width: 200px;
       height: 200px;
-      left: 134px;
-      top:130px ;
-      border: 10px solid red;
+      left: 113px;
+      top:0px ;
+      border: 10px solid white;
       border-bottom-left-radius: 140px;
       border-top-left-radius: 140px;
       border-bottom-right-radius: 140px;
-      border-width: 5px;
+      border-width: 20px;
       transform: rotate(45deg);
+      z-index: 1;
     }
+    body {
+        background-color: black;
+      }
     .inf-r {
-        position: relative;
-        top: -80px;
+        position: absolute;
+        top: 0px;
         left: 424px;
         width: 200px;
         height: 200px;
-        border: 10px solid red;
+        border: 10px solid white;
         border-bottom-left-radius: 140px;
         border-top-left-radius: 140px;
         border-bottom-right-radius: 140px;
-        border-width: 5px;
+        border-width: 20px;
         transform: rotate(-135deg);
+        z-index: 1;
     }
     .btm2 {
-        position: relative;
+        position: absolute;
         margin-bottom: -710px;
-        left: 283px;
-        top: -10px;
+        left: 289px;
+        top: 200px;
         width: 200px;
         height: 200px;
         background-color: red;
         transform: rotate(-135deg);
     }
     .left2 {
-        position: relative;
-        top: 430px;
-        left: 213px;
-        width: 200px;
-        height: 200px;
+        position: absolute;
+        top: 70px;
+        left: 190px;
+        width: 250px;
+        height: 250px;
         border-radius: 100%;
         background-color: red;
     }
     .right2 {
-        position: relative;
-        top: 228px;
-        left: 355px;
-        width: 200px;
-        height: 200px;
+        position: absolute;
+        top: 72px;
+        left: 335px;
+        width: 250px;
+        height: 250px;
         border-radius: 100%;
         background-color: red;
     }
