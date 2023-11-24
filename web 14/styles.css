@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.metronome-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#startStopBtn.playing {
+    background-color: #ff5f5f;
+    color: #fff;
+}
+
+.rzb2cc {
+    color: #70757a;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 2px;
+    text-transform: uppercase;
+}
+
+
+  .slider-container {
+    margin-top: 20px;
+  }
+
+  .slider {
+    width: 200px;
+  }
+
+  .circle-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgb(11, 162, 190);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+  }
+.LUnGP {
+    color: #202124;
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 48px;
+    padding-top: 10px;
+}
+
