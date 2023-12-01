@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var btnMinus = document.getElementById("btn_minus");
     var rangeSlider = document.getElementById("rangeSlider");
     var btnPlay = document.getElementById("btn_play");
+    var btnPlay2 = document.getElementById("btn_play2");
 
     btnPlus.addEventListener("click", function() {
         rangeSlider.value = parseInt(rangeSlider.value) + 1;
@@ -17,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
         rangeSlider.value = parseInt(rangeSlider.value) - 1;
         updateBPM();
     });
-    
+
     rangeSlider.addEventListener("input", function() {
         updateBPM();
     });
@@ -28,7 +29,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     btnPlay.addEventListener("click", function() {
-        if (btnPlay.innerHTML === "&#9654;") {
+        console.log(btnPlay.innerHTML);
+        if (btnPlay.innerHTML === "&#9654") {
             btnPlay.innerHTML = "&#9646;&#9646;";
             playMetronomeTick();
         } else {
@@ -36,7 +38,6 @@ document.addEventListener("DOMContentLoaded", function() {
             stopMetronomeTick();
         }
     });
-
 
     function playMetronomeTick() {
         var bpm = parseInt(rangeSlider.value) + 40;

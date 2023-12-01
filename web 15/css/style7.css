@@ -1,0 +1,45 @@
+.our-team {
+    width: 100%;
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+
+
+.circle-image {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text horizontally */
+}
+
+.circle-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.circle-image p {
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.our-work {
+    background-color: black;
+    width: 100%;
+    /* display: flex; */
+    flex-wrap: wrap;
+    padding-top: 55px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.our-work h1{
+    color: aliceblue;
+}
+.pricing-sec1 {
+    text-align: center;
+    padding: 45px;
+}
