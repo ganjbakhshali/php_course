@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Ali",
+        "car": "rana",
+        "car-number": "ir12b456",
+        "lat" : 36.326275,
+        "lng" : 59.534494
+    },
+    {
+        "name": "sajjad",
+        "car": "206",
+        "car-number": "ir74h989",
+        "lat" : 36.327451,
+        "lng" : 59.501192
+    },
+    {
+        "name": "mehdi",
+        "car": "pride",
+        "car-number": "ir36n678",
+        "lat" : 36.312928,
+        "lng" : 59.515097
+    },
+    {
+        "name": "rooh",
+        "car": "saina",
+        "car-number": "ir36d678",
+        "lat" : 36.335817,
+        "lng" : 59.505140
+    }
+]

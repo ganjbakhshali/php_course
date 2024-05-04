@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Taxi Ordering</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Online Taxi Ordering</h1>
+    <p id="originText" class="clickable-text">Click to set your origin</p>
+    <p id="destinationText" class="clickable-text" style="display: none;">Click to set your destination</p>
+    <div id="map"></div>
+    <div id="distance"></div>
+    <p id="fare"></p>
+</div>
+
+<script src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9674G8P8ukMWDePDFgvV0BoAxE1YUFbI&callback=initMap" async defer></script>
+</body>
+</html>
